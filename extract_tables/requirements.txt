@@ -1,0 +1,19 @@
+#TableExtractor requirements
+xlsxwriter
+pdfplumber
+pdfminer.six
+pyparsing
+Pillow
+certifi
+chardet
+idna
+PyPDF3
+requests
+tqdm
+urllib3
+openpyxl
+#fastapi requirements
+fastapi
+uvicorn
+python-multipart
+psutil

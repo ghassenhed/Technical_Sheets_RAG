@@ -1,0 +1,932 @@
+{
+  "metadata": {
+    "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1.md",
+    "document_type": "installation_manual",
+    "total_chunks": 46,
+    "tables_processed": 6,
+    "processed_at": "2025-10-12T03:41:52.268876",
+    "total_characters": 42483
+  },
+  "chunks": [
+    {
+      "content": "The documentation for the product **Q.TRON S‑G3R.12+ _BFG modules series** is organized as follows:\n\n**1 Introduction** – located on page 3.  \n\n**2 Planning** – begins on page 5 and is divided into four subsections:  \n- **2.1 Technical specifications** – page 5.  \n- **2.2 Requirements** – page 6.  \n- **2.3 Mounting options** – page 7.  \n- **2.4 Electrical layout** – page 9.  \n\n**3 Installation** – starts on page 10 and includes three subsections:  \n- **3.1 Safety and transport** – page 10.  \n- **3.2 Preparation of installation** – page 12.  \n- **3.3 Module installation** – page 13.  \n\n**4 Electrical connection** – found on page 14 and is broken down into four parts:  \n- **4.1 Safety** – page 14.  \n- **4.2 Electrical installation safety** – page 15.  \n- **4.3 Connection of modules** – page 16.  \n- **4.4 After installation** – page 17.  \n\n**5 Grounding** – located on page 18.  \n\n**6 Faults and defects** – also on page 18.  \n\n**7 Disposal** – again on page 18.  \n\n**8 Maintenance and cleaning** – appears on page 19.  \n\nThe manual carries **Document Revision 02** and is valid for the regions **Africa, Asia, Europe, Latin America, and South America** as of **1 August 2024**. It applies specifically to **Q.TRON (BLK) S‑GR3.12+ / BFG solar modules** and supersedes all previous versions of the documentation.\n\n**Disclaimer:** This manual is subject to change. The data sheets and customer information that were current at the time each module was manufactured govern the installation, mounting, and maintenance procedures for the respective solar modules, unless a more recent document is provided.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_3",
+        "section_title": "Table of contents",
+        "section_number": "section_3",
+        "category": "general",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": true,
+        "table_processed_by_llm": true,
+        "char_count": 1408,
+        "chunked_at": "2025-10-12T03:39:51.299902"
+      },
+      "chunk_id": "manual_section_3_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "**With solar modules from Hanwha Q CELLS GmbH (hereafter referred to as \"Qcells\") you can directly transform the sun's limitless energy into environmentally-friendly solar electricity. In order to ensure the maximum performance of your Qcells solar modules, please read the following instructions carefully and observe all guidelines. Non-compliance may result in damage and / or physical injury.**\n\nThis installation and operation manual (hereafter also referred to as the \"Manual\") provides instructions for the safe installation and operation of crystalline solar modules.\n\n- Please read these instructions carefully before proceeding with your installation.\n- Please retain these instructions for the life of the solar modules.\n- Please ensure that this Manual is available to the operator at all times.\n- This Manual should be given to all subsequent owners or users of the solar modules.\n- All supplements received from the manufacturer should be included.\n- Please observe all other applicable documents.\n- If your questions are not satisfactorily answered in the manual, please contact your system supplier.\n\nAdditional information can be found on our website at www. qcells.com.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_5",
+        "section_title": "With solar modules from Hanwha Q CELLS GmbH (hereafter referred to as \"Qcells\") you can directly transform the sun's limitless energy into environmentally-friendly solar electricity. In order to ensure the maximum performance of your Qcells solar modules, please read the following instructions carefully and observe all guidelines. Non-compliance may result in damage and / or physical injury.",
+        "section_number": "section_5",
+        "category": "maintenance",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 1187,
+        "chunked_at": "2025-10-12T03:39:58.871740"
+      },
+      "chunk_id": "manual_section_5_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Intended use**\n\nThis manual is valid for Africa, Asia, Europe, Latin America, South America. These instructions contain information regarding the safe handling and use of quality crystalline solar modules from Qcells and their installation, mounting, wiring, maintenance and disposal.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_6",
+        "section_title": "Intended use",
+        "section_number": "section_6",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 291,
+        "chunked_at": "2025-10-12T03:39:58.871823"
+      },
+      "chunk_id": "manual_section_6_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "**Symbols and Labels – Descriptive Overview**\n\nThe manual for the **Q.TRON S‑G3R.12+ BFG modules series** employs a set of graphical symbols to streamline the presentation of information. Each symbol is associated with a specific type of instruction or warning. The table in the original documentation lists four distinct symbols, each paired with a concise description of its intended meaning. Although the visual representations of the symbols are not reproduced in the text, the accompanying descriptions are reproduced verbatim below.\n\n| Symbol (graphical placeholder) | Meaning / Description |\n|--------------------------------|-----------------------|\n| **[Symbol 1]** | *Procedure with one or more steps.* This symbol signals that the following text outlines a multi‑step process that the user must follow. |\n| **[Symbol 2]** | *Lists of items.* When this symbol appears, the content that follows is organized as a list, typically enumerating components, actions, or specifications. |\n| **[Symbol 3]** | *Ensure that when carrying out a procedure, you check the results of said procedure.* This symbol reminds the reader to verify the outcome after each step of a procedure, emphasizing verification as part of the workflow. |\n| **[Symbol 4]** | *Prohibited.* The presence of this symbol indicates an action or condition that must not be performed or allowed under any circumstances. |\n\n> **Note of Caution:** The documentation also includes a general advisory: *Beware of possible danger or damage.* This statement underscores the importance of observing all symbols and their associated instructions to avoid hazards.\n\n---\n\n### Warning and Information Categories\n\nThe manual classifies safety and informational messages into three distinct categories, each identified by a specific label:\n\n1. **Danger** – Indicates a **risk of fatal injury**. Situations marked with this label present an immediate threat to life and must be avoided or mitigated without delay.\n2. **Attention** – Denotes a **risk of serious injury or damage to property**. These warnings highlight conditions that could cause significant personal harm or substantial damage to equipment or surroundings if not properly addressed.\n3. **Note** – Signifies a **risk of damage to the product** itself. This label alerts the user to actions or conditions that could impair the functionality or integrity of the Q.TRON S‑G3R.12+ BFG modules.\n\nEach of these categories is used consistently throughout the manual to draw the reader’s attention to the severity and nature of the associated risk. By recognizing the symbols and their linked descriptions, as well as the categorical labels (Danger, Attention, Note), users can safely navigate the procedures, lists, verification steps, and prohibitions outlined in the documentation.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_7",
+        "section_title": "Symbols and Labels",
+        "section_number": "section_7",
+        "category": "general",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": true,
+        "char_count": 885,
+        "chunked_at": "2025-10-12T03:39:58.871894"
+      },
+      "chunk_id": "manual_section_7_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Safety Regulations**\n\nIn particular the installer as well as the operator of a module is responsible for compliance with all applicable statutory requirements and regulations.\n\n- Unless otherwise specified by any laws or regulations, the following stipulations must be upheld at all times during the installation, operation, and maintenance of the solar modules:\n  - This manual.\n  - Other applicable stipulations (such as country-specific regulations for pressure equipment, operational safety, hazardous goods, and environmental protection).\n  - Regulations and requirements specific to the system.\n  - Any applicable laws and requirements, in particular international, country specific, regional laws and stipulations governing the planning, installation, and operation of solar power systems and work on roofs.\n  - Any valid international, national and regional regulations governing work with direct current, especially those applicable to the installation of electrical devices and systems, and regulations issued by the respective energy provider governing the parallel operation of solar power systems.\n  - Any international, country specific and regional accident-prevention regulations.\n  - Other applicable stipulations provided by the relevant national institutions regarding safety in the installation and operation of electrical items.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_8",
+        "section_title": "Safety Regulations",
+        "section_number": "section_8",
+        "category": "safety",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 1356,
+        "chunked_at": "2025-10-12T03:40:02.081499"
+      },
+      "chunk_id": "manual_section_8_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Qualified and Skilled Personnel**\n\nBoth, the installer and operator are responsible for ensuring that the installation (including connection to the grid), maintenance and dismantling are carried out by trained and qualified specialists with approved training certificates (issued by a state or federal organization) for the respective specialist trade. Electrical work may only be performed by an officially certified tradesperson in accordance with the stipulations applicable in the relevant country with regard to standard and regulations (in Germany e. g. DIN standards, VDE regulations) and the stipulations of the local grid operator and / or energy provider.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_9",
+        "section_title": "Qualified and Skilled Personnel",
+        "section_number": "section_9",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 672,
+        "chunked_at": "2025-10-12T03:40:02.081613"
+      },
+      "chunk_id": "manual_section_9_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Validity**\n\nThese instructions are only valid for crystalline solar modules from the company Qcells as specified at chapter \"2.1 Technical specifications\". Qcells assumes no liability for damage resulting from failure to observe these instructions.\n\n- Please observe the wiring and dimensioning of the system.\n- The installer of the system is responsible for compliance with all necessary safety regulations during set-up and installation. Qcells assumes no liability on the basis of these instructions. Qcells is only liable in the context of contractual agreements or in the context of accepted guarantees. Qcells accepts no other responsibility for the functionality and safety of the modules.\n- Please observe the instructions for any other system components that may be part of the complete solar power system. It may be necessary to carry out a structural analysis for the entire project.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_11",
+        "section_title": "Validity",
+        "section_number": "section_11",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": true,
+        "table_processed_by_llm": false,
+        "char_count": 901,
+        "chunked_at": "2025-10-12T03:40:02.081709"
+      },
+      "chunk_id": "manual_section_11_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Additional information for the Operator**\n\n- Please keep this manual for the entire life of the solar power system.\n- Please contact your system supplier for information concerning the formal requirements for solar power systems.\n- Please be sure to contact the relevant local authorities and energy providers regarding regulations and permit requirements prior to installation of the solar power system. Your financial success depends on the fulfillment of these requirements.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_12",
+        "section_title": "Additional information for the Operator",
+        "section_number": "section_12",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 484,
+        "chunked_at": "2025-10-12T03:40:02.081790"
+      },
+      "chunk_id": "manual_section_12_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Other applicable documents**\n\nIn addition to this Manual following technical information are relevant:\n\nProduct data sheet\n\nPackaging and transport information\n\nMISUSE OR INCORRECT USE OF SOLAR MODULES VOIDS THE LIMITED WARRANTY AND MAY CREATE A SAFETY HAZARD AND RISK PROPERTY DAMAGE. THIS INCLUDES IMPROPER INSTALLATION OR CONFIGURATION, IMPROPER MAINTENANCE, UNINTENDED USE, AND UNAUTHORIZED MODIFICATION.\n\nThis marking indicates that this product should not be disposed of with other household waste within the EU. Recycle this product properly to prevent possible damage to the environment or a risk to human health via uncontrolled waste disposal and in order to promote the sustainable reuse of material resources. Please return your used product to an appropriate collection point or contact the retailer where you purchased this product. Your retailer will accept used products and return them to an environmentally-sound recycling facility.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_13",
+        "section_title": "Other applicable documents",
+        "section_number": "section_13",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 957,
+        "chunked_at": "2025-10-12T03:40:02.081890"
+      },
+      "chunk_id": "manual_section_13_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "**Technical specifications – Q.TRON S‑G3R.12+ / BFG and Q.TRON BLK S‑G3R.12+ / BFG (Section 2.1)**  \n\nThe following description extracts every data point presented in the markdown table for the two product lines of the Q.TRON S‑G3R.12+ / BFG series. No information has been omitted, generalized, or altered.\n\n---\n\n### 1. General product information  \n\n| Item | Q.TRON S‑G3R.12+ / BFG | Q.TRON BLK S‑G3R.12+ / BFG |\n|------|----------------------|---------------------------|\n| **Product line** | Q.TRON S‑G3R.12+ / BFG | Q.TRON BLK S‑G3R.12+ / BFG |\n| **Type** | Q.ANTUM NEO | – (type not specified in the table) |\n\n---\n\n### 2. Physical dimensions and mass  \n\n| Parameter | Value |\n|-----------|-------|\n| **Length** | 1 762 mm |\n| **Width** | 1 134 mm |\n| **Frame height** | 30 mm |\n| **Active area** | 1.998 m² |\n| **Weight** | 20.9 kg |\n\nThese dimensions refer to the Q.TRON S‑G3R.12+ / BFG module; the table does not list separate values for the BLK variant.\n\n---\n\n### 3. Electrical specifications  \n\n| Parameter | Value |\n|-----------|-------|\n| **Maximum system voltage (V<sub>SYS</sub>)** | 1 500 V |\n| **Maximum reverse current** | 30 A |\n\n---\n\n### 4. Environmental and protection ratings  \n\n| Parameter | Value |\n|-----------|-------|\n| **Permissible operating temperature range** | –40 °C to +85 °C (equivalent to –40 °F to +185 °F) |\n| **Junction‑box protection class** | IP68 with bypass diode |\n| **Connector protection class** | IP68 |\n| **Fire rating (ANSI/UL 61730)** | Class C |\n\n---\n\n### 5. Mechanical load capabilities  \n\n| Load type | Test load (Push / Pull) | Design load (Push / Pull) |\n|-----------|------------------------|---------------------------|\n| **Maximum** | 5 400 Pa / 2 400 Pa | 3 600 Pa / 1 600 Pa |\n\n*Footnote 1*: The test and design loads are defined in accordance with IEC 61215:2016 and depend on the selected mounting option (see Section 2.3 “Mounting options”).\n\n---\n\n### 6. Certifications (applicable to the Q.TRON BLK S‑G3R.12+ / BFG variant)  \n\nThe BLK version of the module carries the following certifications and compliance statements:\n\n* **CE‑compliant**\n* **IEC 61215:2016** – compliance with the standard for crystalline silicon terrestrial photovoltaic modules\n* **IEC 61730:2016** – compliance with the safety qualification for photovoltaic modules\n* **PV‑module classification** – Class II (as defined by IEC 61730)\n\nNo additional certification data are listed for the standard Q.TRON S‑G3R.12+ / BFG module in the table.\n\n---\n\n### 7. Reference illustration  \n\nFigure 1 (referenced in the source document) depicts the external dimensions and component layout for both the Q.TRON S‑G3R.12+ / BFG and the Q.TRON BLK S‑G3R.12+ / BFG modules.\n\n---\n\n**Summary** – The Q.TRON S‑G3R.12+ / BFG photovoltaic module measures 1 762 mm × 1 134 mm × 30 mm, has an active area of 1.998 m², and weighs 20.9 kg. It is rated for a maximum system voltage of 1 500 V, a reverse current of 30 A, and operates safely within –40 °C to +85 °C. The junction box and connectors are both IP68‑rated, with the junction box incorporating a bypass diode. The module meets fire rating Class C per ANSI/UL 61730, and can withstand test loads of 5 400 Pa (push) and 2 400 Pa (pull) and design loads of 3 600 Pa (push) and 1 600 Pa (pull). The BLK variant is CE‑marked and conforms to IEC 61215:2016, IEC 61730:2016, and is classified as a Class II PV module. All values, units, and footnotes are reproduced exactly as presented in the original table.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "2.1",
+        "section_title": "2.1 Technical specifications",
+        "section_number": "2.1",
+        "category": "technical_specifications",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": true,
+        "has_specifications": true,
+        "table_processed_by_llm": true,
+        "char_count": 5016,
+        "chunked_at": "2025-10-12T03:40:02.082000"
+      },
+      "chunk_id": "manual_2_1_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Installation Site**\n\nPlease note the following guidelines that apply to the installation site:\n\n- Solar modules are not explosion-proof and are not suitable for use in explosive environments.\n- Do not operate solar modules near highly flammable gas and vapors (e.g. gas tanks, gas stations).\n- Do not install modules in enclosed space.\n- Do not install modules in locations where they may be submerged in water (e.g. floodplains).\n- Do not use modules as a substitute for the normal roofing (e.g. modules are not watertight).\n- Do not install modules in close proximity to air conditioning systems.\n- Do not install modules above 2000 m (6561 ft) altitude above sea level.\n- Contact with saline water (e.g. spray water from the sea) and salt aggregation on the modules must be avoided.\n- Do not bring any chemical substance (e.g. oil, solvent etc.) into contact with any part of the panel. Only substances, which are released by Qcells, are allowed to be used during installation, operation and maintenance.\n- Any installation of modules on surfaces of water is prohibited. This includes installations on floating as well as pile-based platforms. Qcells may extend the coverage of its warranty to such installations, based on a case by case assessment of the system design and location. A prior written consent by the warrantor is required in any case.\n\nThe solar modules are designed for the following applications:\n\n- Operating temperatures from −40 °C to +85 °C (−40 °F to +185 °F).\n- Pull loads up to max. 2,400 Pa and push loads up to max. 5,400 Pa (see chapter \"Mounting options\").\n- Installation using a mounting structure for solar modules.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_16",
+        "section_title": "Installation Site",
+        "section_number": "section_16",
+        "category": "requirements",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 1655,
+        "chunked_at": "2025-10-12T03:40:52.331599"
+      },
+      "chunk_id": "manual_section_16_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Prevention of Shadowing Effects**\n\nOptimal solar irradiation leads to maximum energy output:\n\n- For this reason, install the modules so that they face the sun.\n- Avoid shadowing (due to objects such as buildings, chimneys or trees).\n- Permanent or regular shading can lead to damage to the module. In such cases, the use of module optimizers is recommended in order to maintain the product warranty and increase the yield of the PV system.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_17",
+        "section_title": "Prevention of Shadowing Effects",
+        "section_number": "section_17",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 446,
+        "chunked_at": "2025-10-12T03:40:52.331692"
+      },
+      "chunk_id": "manual_section_17_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Mounting Structure Requirements**\n\nThe Modules shall be installed and operated on mounting structures that comply with any applicable laws and stipulations as well as with the following:\n\n- Conform to the necessary structural requirements.\n- Compliant with local snow and wind loads.\n- Properly fastened to the ground, the roof, or the façade.\n- Forces acting on the module are relayed to the mounting substructure.\n- Ensures sufficient rear ventilation of the module.\n- Avoid the usage of different metals to prevent contact corrosion.\n- Allows for stress-free expansion and contraction due to temperature fluctuations.\n\n- Ensure that no additional forces are applied through the mounting system into the module except for the wind and snow loads. Additional forces and moments of torque at the mounting positions caused by torsions, displacements or vibrations in the mounting system are not allowed.\n- Ensure that the clamps and the mounting frame are compatible.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_18",
+        "section_title": "Mounting Structure Requirements",
+        "section_number": "section_18",
+        "category": "requirements",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 973,
+        "chunked_at": "2025-10-12T03:40:52.331778"
+      },
+      "chunk_id": "manual_section_18_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Clamp System Recommendations**\n\nUse customary clamps that satisfy the following requirements:\n\n- Clamps are not in contact with the front glass.\n- Clamps do not deform the frame.\n- Clamps that satisfy the structural requirements based on the conditions of the installation site according to the applicable regulations and technical standards.\n- Long-term stable clamps that securely affix the module to the mounting frame.\n- Clamp height compliant with the frame height.\n\nIt is recommended to use Qcells Q.MOUNT clamps for mounting.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_19",
+        "section_title": "Clamp System Recommendations",
+        "section_number": "section_19",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 539,
+        "chunked_at": "2025-10-12T03:40:52.331847"
+      },
+      "chunk_id": "manual_section_19_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Module Orientation Requirements**\n\n- Landscape or portrait installation is permitted.\n- Ensure that rain and melting snow can run off freely. No water accumulation.\n- Ensure that the drainage holes in the frame are not covered. No sealing.\n\n- Maintain the permissible angle of inclination.\n  - Minimum angle of inclination: 3°\n  - Inclination angles above 75° may be limited by local regulations\n- Standing water on the modules glass needs to be avoided.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_20",
+        "section_title": "Module Orientation Requirements",
+        "section_number": "section_20",
+        "category": "requirements",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 461,
+        "chunked_at": "2025-10-12T03:40:52.331909"
+      },
+      "chunk_id": "manual_section_20_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### REQUIREMENTS OF ALL MOUNTING OPTIONS\n\n- → The loads in the table are related to the mechanical stability of the solar modules. Mounting system and installation equipment (clamps, etc.) are not part of the PV module certification acc. IEC 61215/61730. The mechanical stability of the mounting system including clamps has to be evaluated by the system supplier. The listed test load values have been determined with the following clamp parameters: clamp width = 50 mm and clamp depth = 11 mm. The installer has to make sure that the used clamps and rails are capable of securely fastening the module under the specified maximum loads.\n- → The system installer is responsible for the determination of location-specific load requirements.\n- → Ensure, that the connection cables of the junction box do not run between laminate and mounting rails.\n- → Modules bend under load. Therefore, sharp objects (e.g. screws, ballast stones, rail ends, rails with burrs or sharp corners) must not be placed near the module backside so as not to touch the laminate under load.\n- → Ensure that the junction boxes do not touch the mounting structure (e.g. shorts rails, ballast, etc.) or the rooftop under load.\n- → Clamps must not touch the glass (even under load).\n- → Unbalanced loads (e.g. snow overhangs, snowdrifts) which result in locally significantly increased loads must be removed or avoided by technical measures.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_22",
+        "section_title": "REQUIREMENTS OF ALL MOUNTING OPTIONS",
+        "section_number": "section_22",
+        "category": "requirements",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 1411,
+        "chunked_at": "2025-10-12T03:40:52.331999"
+      },
+      "chunk_id": "manual_section_22_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### Mechanical loads based on IEC 61215-2:2016.\n\nMounting methods in this section were tested and verified by Qcells.\n\nDesign loads result from the safety factor 1.5.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "61215",
+        "section_title": "Mechanical loads based on IEC 61215-2:2016.",
+        "section_number": "61215",
+        "category": "technical_specifications",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 167,
+        "chunked_at": "2025-10-12T03:40:52.332045"
+      },
+      "chunk_id": "manual_61215_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "**Mounting options with clamps – Q.TRON S‑G3R.12+ BFG modules (landscape or portrait orientation)**  \n\nThe table distinguishes two possible mounting concepts:\n\n1. **Four clamps on the long side together with two continuous rails that run parallel to the short side**  \n2. **Four clamps on the long side, where short (non‑continuous) rails are also permitted**\n\nFor each concept the table lists the permissible clamp positions (measured from the outer edge of the module to the centre of the clamp – see the footnote *), the test‑load values that were applied during verification, and the corresponding design‑load values that may be used for permanent installation.  \n\n---\n\n### 1.  Four clamps on the long side & two continuous rails parallel to the short side  \n\n| **Clamp identifier** | **Position of clamps* [mm]** | **Test‑load Push / Pull [Pa]** | **Design‑load Push / Pull [Pa]** |\n|----------------------|------------------------------|--------------------------------|----------------------------------|\n| **CL1a** (long‑side) | 25 – 100                     | 2200 / 2200                    | 1465 / 1465                      |\n|                      | 100 – 200                    | 2400 / 2400                    | 1600 / 1600                      |\n|                      | 200 – 300                    | 3600 / 3000                    | 2400 / 2000                      |\n|                      | 300 – 450                    | 5400 / 2400                    | 3600 / 1600                      |\n\n*Additional requirement for CL1a* – “Ensure that the module frame is fixed directly on the rail of the sub‑structure (no spacer is allowed between the module and the sub‑structure).”\n\n---\n\n### 2.  Four clamps on the long side (short rails allowed)  \n\n| **Clamp identifier** | **Position of clamps* [mm]** | **Test‑load Push / Pull [Pa]** | **Design‑load Push / Pull [Pa]** |\n|----------------------|------------------------------|--------------------------------|----------------------------------|\n| **CL1b** (short‑rail option) | 100 – 450                     | 1600 / 2000                    | 1065 / 1330*                     |\n\n\\*The design‑load value of 1065 / 1330 Pa appears in the same column as the design‑load for the first concept; it is reproduced here exactly as presented in the source table.\n\n*Additional requirement for CL1b* – “Short mounting rail length of 20 mm is required; overlaps are permissible, if the length of ≥ 30 mm between overlap with the module is less than 210 mm. Maintain a minimum …” (the original text is truncated in the source; the fragment is reproduced verbatim).\n\n---\n\n### Footnote  \n\n\\* **Distance between the outer edge of the module and the middle of the clamp.**  \n\nAll numerical values, ranges, and textual notes from the original markdown table have been retained verbatim, ensuring that no specification or detail has been omitted or altered.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_24",
+        "section_title": "Mounting options with clamps",
+        "section_number": "section_24",
+        "category": "installation",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": true,
+        "char_count": 4302,
+        "chunked_at": "2025-10-12T03:40:52.332216"
+      },
+      "chunk_id": "manual_section_24_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "**Mounting option 2.3 – “4 clamps on the short side & 2 continuous rails parallel to the long side” (and the related “4 clamps on the short side” variant)**  \n\nThe table provides the permissible geometric positions of the lamps, the required test‑load values, the corresponding design‑load values, and the positions of the clamps for the two mounting concepts identified as **CL2a** and **CL2b**. All numerical data are reproduced exactly as given in the source table.\n\n---\n\n### 1.  Configuration CL2a – 4 clamps on the short side & 2 continuous rails parallel to the long side  \n\n| Sub‑case | Position of lamps* [mm] | Test‑load push / pull [Pa] | Design‑load push / pull [Pa] | Position of clamps* |\n|----------|--------------------------|----------------------------|------------------------------|----------------------|\n| **S**    | 25 – 100 **               | 3200 / 1600                | 2130 / 1065                  | **S**                |\n| **3**    | 250 – 350 **              | 3200 / 1400                | 2130 / 930                   | – (not specified)   |\n\n*Notes for CL2a*  \n\n- **Installation requirement:** The module frame must be fixed **directly on the rail of the sub‑structure**; **no spacer** is allowed between the module and the sub‑structure.\n\n---\n\n### 2.  Configuration CL2b – 4 clamps on the short side (no continuous rails)  \n\n| Sub‑case | Position of lamps* [mm] | Test‑load push / pull [Pa] | Design‑load push / pull [Pa] |\n|----------|--------------------------|----------------------------|------------------------------|\n| **S**    | 25 – 200                 | 1600 / 1500                | 1065 / 1000                  |\n| **3**    | 25 – 200                 | 1600 / 1500                | 1003 / 1000                  |\n\n*Notes for CL2b*  \n\n- **Minimum support depth:** At least **20 mm** is required on the back side of the module.  \n- **Short mounting rails:** They are permissible **only if the overlap with the module is less than 110 mm**.  \n- **Clearance requirement:** A minimum distance of **≥ 70 mm** must be maintained between the **frame bottom edge** and the **roof top or ballast**.\n\n---\n\n### 3.  General remarks  \n\n- The asterisks (*) next to “Position of lamps” and “Position of clamps” refer to the footnotes in the original table; the exact meaning of the asterisks is not expanded in the provided excerpt.  \n- The double asterisks (**) after the lamp‑position ranges (e.g., “25 – 100**”) are reproduced verbatim; any associated footnote is not included in the source material.  \n\nAll values, ranges, and textual instructions from the original markdown table have been retained in the description above.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "2.3",
+        "section_title": "2.3 Mounting options",
+        "section_number": "2.3",
+        "category": "installation",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": true,
+        "char_count": 4337,
+        "chunked_at": "2025-10-12T03:41:11.781808"
+      },
+      "chunk_id": "manual_2_3_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "**Mounting Options with Bolts – Q.TRON S‑G3R.12+ BFG Modules Series**  \n\nThe illustrated installation options are valid for both landscape and portrait orientations of the module. The following description details the “2 continuous rails parallel to the short side” configuration, including every specification that appears in the source table.\n\n---\n\n### 1. General Layout  \n\n- **Mounting rail arrangement:** Two continuous rails are installed **parallel to the short side** of the module.  \n- **Applicable module orientation:** The same arrangement can be used whether the module is mounted in landscape or portrait mode.  \n\n---\n\n### 2. Bolt Position  \n\n- **Reference definition (footnote \\*):** *Distance between the outer edge of the module and the middle of the clamp.*  \n- **Measured position:** The centre of each bolt (clamp) is located **331 mm** from the outer edge of the module along the short‑side direction.\n\n---\n\n### 3. Load Capacities (per bolt)  \n\n| Load type | Push (Pa) | Pull (Pa) |\n|-----------|-----------|-----------|\n| **Test load** | **5 400 Pa** | **2 400 Pa** |\n| **Design load** | **3 600 Pa** | **1 600 Pa** |\n\n- The **test load** values (5 400 Pa push, 2 400 Pa pull) represent the maximum loads applied during verification testing.  \n- The **design load** values (3 600 Pa push, 1 600 Pa pull) are the allowable loads for normal service conditions.\n\n---\n\n### 4. Fastening Hardware  \n\n- **Bolt type:** Use **M8 corrosion‑proof screws** together with **washers**.  \n- **Minimum washer (or screw) diameter:** **≥ 16 mm**.  \n- **Installation note:** The screws and washers are to be mounted **directly on the rail of the sub‑structure**; **no spacer is permitted between the rails** (i.e., the rails must be in direct contact with the mounting slots).  \n\n---\n\n### 5. Additional Installation Constraints  \n\n- **Rail placement relative to junction box (footnote \\*\\*):** The continuous rails **must not be positioned underneath the junction box**.  \n- **Mounting slots:** The slots referenced (Detail A, Fig. 1 in the original documentation) require the above‑specified hardware and material properties; the exact material specifications are not reproduced here but must be observed as per the original drawing.  \n\n---\n\n### 6. Summary of All Data Points  \n\n- **Configuration:** 2 continuous rails parallel to the short side.  \n- **Bolt position:** 331 mm from the module’s outer edge (center of clamp).  \n- **Test load capacity:** 5 400 Pa (push) / 2 400 Pa (pull).  \n- **Design load capacity:** 3 600 Pa (push) / 1 600 Pa (pull).  \n- **Fasteners:** M8 corrosion‑proof screws with washers of ≥ 16 mm.  \n- **Spacer rule:** No spacer allowed between the rails.  \n- **Rail‑junction‑box rule:** Rails must not be under the junction box.  \n- **Applicability:** Valid for both landscape and portrait module orientations.  \n\nAll the values, units, and conditions presented above are taken directly from the source table and accompanying notes; no additional information has been introduced.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_26",
+        "section_title": "Mounting options with bolts",
+        "section_number": "section_26",
+        "category": "installation",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": true,
+        "has_specifications": false,
+        "table_processed_by_llm": true,
+        "char_count": 2235,
+        "chunked_at": "2025-10-12T03:41:33.723641"
+      },
+      "chunk_id": "manual_section_26_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Module Selection**\n\nFor detailed key electrical data, please refer to the actual data sheet referring to the relevant Module (available at www.qcells. com).\n\nFor maximum energy yields, mismatches of specified electric current (IMPP) of more than 5 % should be avoided for all modules connected in series.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_28",
+        "section_title": "Module Selection",
+        "section_number": "section_28",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 311,
+        "chunked_at": "2025-10-12T03:41:52.266101"
+      },
+      "chunk_id": "manual_section_28_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Safety Factor**\n\nFor detailed key electrical data, please refer to the actual data sheet referring to the relevant Module (available at www.qcells. com).\n\n■ During normal operation, a module may generate a greater current and / or higher voltage than that determined under standardized test conditions. Please use a safety factor of 1.25 for the following:\n\nCalculating the voltage measurement values (VOC) of components\n\n- Calculating the current measurement values (ISC) of conductors\n- Sizing of control systems connected to the outlets of the solar modules\n- Please follow the valid national guidelines for the installation of electrical systems.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_29",
+        "section_title": "Safety Factor",
+        "section_number": "section_29",
+        "category": "safety",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 657,
+        "chunked_at": "2025-10-12T03:41:52.266250"
+      },
+      "chunk_id": "manual_section_29_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Series Connection**\n\nConnection of modules in series is only permitted up to the maximum system voltage as listed in the applicable data sheet of all the relevant modules to be installed.\n\n- Take into account all possible operating situations and all relevant technical norms and regulations when designing the system. It has to be ensured that the maximum system voltage, including all necessary safety margins, is not exceeded.\n- Take the voltage limit of the inverter into account when determining the maximum number of modules in the string.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_30",
+        "section_title": "Series Connection",
+        "section_number": "section_30",
+        "category": "electrical",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 552,
+        "chunked_at": "2025-10-12T03:41:52.266344"
+      },
+      "chunk_id": "manual_section_30_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Parallel Connection**\n\nModules may be damaged by the occurrence of reverse currents (caused by module defects, ground leaks, or defective insulation).\n\nEnsure that the maximum reverse current load capacity indicated in the data sheet is met.\n\nIn order to limit reverse currents that may occur, we recommend using the following safety options:",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_31",
+        "section_title": "Parallel Connection",
+        "section_number": "section_31",
+        "category": "electrical",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 349,
+        "chunked_at": "2025-10-12T03:41:52.266424"
+      },
+      "chunk_id": "manual_section_31_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **1) Layout with a limited number of parallel connected strings :**\n\nWithout undertaking further current blocking measures, a maximum of two module strings may be operated in parallel on a single inverter or MPP tracker.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "1",
+        "section_title": "1) Layout with a limited number of parallel connected strings :",
+        "section_number": "1",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 225,
+        "chunked_at": "2025-10-12T03:41:52.266560"
+      },
+      "chunk_id": "manual_1_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **2) Layout with string fuses :**\n\nUse overcurrent devices (e.g. fuses) according to the relevant standards in each string. Use gPV-fuses according to IEC 60269- 6. Observe the maximum permitted number of strings as indicated in the specifications provided by the respective string fuse manufacturer and the technical guidelines.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "2",
+        "section_title": "2) Layout with string fuses :",
+        "section_number": "2",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": true,
+        "table_processed_by_llm": false,
+        "char_count": 334,
+        "chunked_at": "2025-10-12T03:41:52.266700"
+      },
+      "chunk_id": "manual_2_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **NOTE!**\n\nWhen installing different product versions, the lowest minimum permitted reverse current load capacity applies.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_34",
+        "section_title": "NOTE!",
+        "section_number": "section_34",
+        "category": "general",
+        "has_table": false,
+        "has_warning": true,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 127,
+        "chunked_at": "2025-10-12T03:41:52.266786"
+      },
+      "chunk_id": "manual_section_34_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "### 3.1 Safety and transport\n\nEnsure that all personnel are aware of and adhere to accident-prevention and safety regulations: While working wear clean gloves_\nSafety First Guide ,\n\nDangerl Risk of fatal injury due to electric shockl Do not install damaged modules_ Inform your distributor of any damages immediately:\n\nInspect the packaging for damages Contact the transport company regarding any damage to the packaging and follow their instructions. Follow any instructions on the packaging:\nWth acells\n\nWarning! Fire Riskl Do not install modules indoors: Do not install modules on moving objects_\n\nLeave modules in their original packaging until installation: Store the modules securely in cool and dry rooms The packaging is not weatherproof:\n34\nocells",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "3.1",
+        "section_title": "3.1 Safety and transport",
+        "section_number": "3.1",
+        "category": "installation",
+        "has_table": false,
+        "has_warning": true,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 756,
+        "chunked_at": "2025-10-12T03:41:52.266888"
+      },
+      "chunk_id": "manual_3_1_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "### 3.1 Safety and transport\n\nNote! Module damage may occur! Never lift or move the module with the connection cables or junction box Carry modules upright and horizontally as shown:\n\nNote! Module damage may occur! Never step on modules: Do not subject modules to any mechanical stress. Do not allow any objects to fall onto modules\n\nNote! Module damage may occur! Do not drop modules:\n\nNote! Module damage may occur! Only make modifications to the module which have been confirmed in writing by Qcells_\nocells confirmation letter\n\nNote! Module damage may occurl Do not stack modules.\n\nNote! Module damage may occurl Do not install modules near flammable gas / vapors Do not install modules in close proximity to air condi- tioning systems",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "3.1",
+        "section_title": "3.1 Safety and transport",
+        "section_number": "3.1",
+        "category": "installation",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 739,
+        "chunked_at": "2025-10-12T03:41:52.266979"
+      },
+      "chunk_id": "manual_3_1_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "### 3.2 Preparation of installation\n\nDanger! Risk of fatal injury due to electric shockl Block off the installation zone. Keep children and unauthorized individuals away from the solar power system:\n\nWarningl Risk of injury due to falling modules! Secure modules during installation: Do not install modules in windy or wet weather:\n\nDanger! Risk of fatal injury due to electric shockl Only use dry, insulated tools.\n\nDanger! Risk of fatal injury due to electric shockl Ensure that modules and tools are not subject to moisture or rain at any time during installation:\n\nOnly install undamaged modules and components_ Do not modify the module (e.g: do not drill any additional holes):",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "3.2",
+        "section_title": "3.2 Preparation of installation",
+        "section_number": "3.2",
+        "category": "installation",
+        "has_table": false,
+        "has_warning": true,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 682,
+        "chunked_at": "2025-10-12T03:41:52.267066"
+      },
+      "chunk_id": "manual_3_2_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "### 3.3 Module installation\n\nOption 1: Fasten the module with 4 clamps in the specified clamping range; see section \"Mounting options with clamps\" of chapter 2.3 Mounting options\". Tighten clamps according to manufacturer's instructions_\n\nMaintain an interval of at least 1O mm between two modules along the short side and 5mm along the long side:\n10 mm\n\nOption 2: Install the module at the 4 mounting points, see section \"Mounting options with bolts\" of chapter \"2.3 Mounting options\" Tighten screws according to manufacturer's instructions.\n\nNote! Module damage may occur! Do not subject modules to mechanical tension Max torsion 1Omm m",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "3.3",
+        "section_title": "3.3 Module installation",
+        "section_number": "3.3",
+        "category": "installation",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 638,
+        "chunked_at": "2025-10-12T03:41:52.267152"
+      },
+      "chunk_id": "manual_3_3_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### Risk of fatal injury due to electric shock!\n\nWhen disconnecting an electric circuit carrying direct current, electric arcs can occur that may result in life-threatening injuries.\n\n- Do NOT unplug the cable when under load.\n- Do NOT connect any exposed cable ends.\n- Electrical work may only be performed by qualified and skilled personnel (see page 3).",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_42",
+        "section_title": "Risk of fatal injury due to electric shock!",
+        "section_number": "section_42",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 357,
+        "chunked_at": "2025-10-12T03:41:52.267251"
+      },
+      "chunk_id": "manual_section_42_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "**A solar module generates electrical current and voltage even at a low intensity of illumination. Sparks and electric arcs may result from the separation of a closed circuit. These can result in life-threatening injuries. The danger increases when several modules are connected in series.**\n\n- Please be aware of that the entire open circuit voltage is active even at low levels of solar irradiation.\n- Please follow the valid national regulations and safety guidelines for the installation of electrical devices and systems.\n- Please make sure to take all necessary safety precautions. With module or phase voltages of more than 120 V, the safety extralow voltage range is exceeded.\n- Carry out work on the inverter and the wiring with extreme caution.\n- Ensure that the modules are disconnected at the inverter prior to separation.\n- Be sure to observe the time intervals specified by the inverter manufacturer after switching off the inverter.\n- Make sure that the plugs can not be connected unintentionally.\n- Before working on the contacts, check them for safety extralow voltage.\n\nDanger! Risk of fatal injury due to electric shockl Never open the junction box: Do not remove bypass diodes_\n\nDanger! Risk of fatal injury due to electric shockl Never touch live contacts with bare hands:\n\nDanger! Risk of fatal injury due to electric shockl v Only use dry; insulated tools for electrical work\n\nDanger! Risk of fatal injury due to electric shockl Insulate any exposed cable ends_ Only connect cables with plugs:",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_43",
+        "section_title": "A solar module generates electrical current and voltage even at a low intensity of illumination. Sparks and electric arcs may result from the separation of a closed circuit. These can result in life-threatening injuries. The danger increases when several modules are connected in series.",
+        "section_number": "section_43",
+        "category": "technical_specifications",
+        "has_table": false,
+        "has_warning": true,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 1516,
+        "chunked_at": "2025-10-12T03:41:52.267404"
+      },
+      "chunk_id": "manual_section_43_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "### 4.2 Electrical installation safety\n\nDanger! Risk of fatal injury due to electric shockl Electrical work may only be performed by qualified and skilled personnel (see page 3). Ensure correct polarity:\n\nDanger! Risk of fatal injury due to electric shockl Never plug or unplug the cable when under load Modules must not carry any current 1. Switch off the inverter:\nOFF\n\nDanger! Risk of fatal injury due to electric shockl Be sure to maintain the time intervals as specified by the inverter manufacturer between switching off the inverter and beginning any further work\n\n2 Switch off the DC circuit breaker:\n3. Measure shutdown in DC String (no DC current flow):\n4. Disconnect plugs by the use of appropriate and qualified tools of the manufacturer\n5. When connecting the modules proceed in reverse order:",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "4.2",
+        "section_title": "4.2 Electrical installation safety",
+        "section_number": "4.2",
+        "category": "technical_specifications",
+        "has_table": false,
+        "has_warning": true,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 806,
+        "chunked_at": "2025-10-12T03:41:52.267486"
+      },
+      "chunk_id": "manual_4_2_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "### 4.3 Connection of modules\n\nUse solar cables for the connection at the junction box outlet: Only interconnect connectors of the same type and manufacturer 7 Use minimum 4mm? copper wires insulated for a minimum of 90*€ for field connections_\nSOLAR\n\nNote! Module damage may occur! Ensure that the cabling is not under mechanical stress (Comply with bending radius of 260 mm): 0 Ensure that the cables do not run between module and mounting rail or structure (danger of pinch):\n\nDanger! Risk of fatal injury due to electric shockl Ensure that all electrical components are in a proper dry; and safe condition_\n\nDo not connect modules with different orientations or angles of inclination in the same string:\n\nEnsure for a tight connection between the plugs: Plugs click together audibly:\nclick",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "4.3",
+        "section_title": "4.3 Connection of modules",
+        "section_number": "4.3",
+        "category": "electrical",
+        "has_table": false,
+        "has_warning": true,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 793,
+        "chunked_at": "2025-10-12T03:41:52.267595"
+      },
+      "chunk_id": "manual_4_3_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "### 4.4 After installation\n\nEnsure that all necessary safety and functional tests have been carried out according to applicable standards\nQcells 8 8\n\nNote! Module damage may occur! Ensure that the plug connections are secured away from any water-channelling surface.\n\nIntegrate the system into the existing lightening protection system in accordance with the applicable local regulations:\n\nWarning! Fire Riskl Do not use light concentrators (e.g. mirrors or lenses):\n\nEnsure that the cabling is not exposed and or hang- ing and is protected from dirt, moisture and mechani- cal friction.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "4.4",
+        "section_title": "4.4 After installation",
+        "section_number": "4.4",
+        "category": "installation",
+        "has_table": false,
+        "has_warning": true,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 587,
+        "chunked_at": "2025-10-12T03:41:52.267685"
+      },
+      "chunk_id": "manual_4_4_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Protective Grounding**\n\nThe modules must be grounded in accordance with the local statutory regulations.\n\nDanger! Risk of fatal injury due to electric shock\"\n\n- Do not attempt to fix any problems yourself (e.g., glass cracks, damaged cables).\n- Please contact an installer or Qcells Technical Customer Service Department.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_49",
+        "section_title": "Protective Grounding",
+        "section_number": "section_49",
+        "category": "safety",
+        "has_table": false,
+        "has_warning": true,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 328,
+        "chunked_at": "2025-10-12T03:41:52.267764"
+      },
+      "chunk_id": "manual_section_49_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "### **7 Disposal**\n\n- Do not disconnect modules by yourself.\n- Please contact an installer or Qcells Technical Customer Service Department.\n- Dispose of modules in accordance with the local disposal regulations.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "7",
+        "section_title": "7 Disposal",
+        "section_number": "7",
+        "category": "disposal",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 211,
+        "chunked_at": "2025-10-12T03:41:52.267848"
+      },
+      "chunk_id": "manual_7_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "**Qcells solar modules are known for a long operating life and minimal maintenance effort and expense. Dirt and grime are usually washed away by rain. If the module is fully or partially shaded by dirt or debris (e.g., plants, bird droppings), it needs to be cleaned to prevent a loss of performance.**",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_52",
+        "section_title": "Qcells solar modules are known for a long operating life and minimal maintenance effort and expense. Dirt and grime are usually washed away by rain. If the module is fully or partially shaded by dirt or debris (e.g., plants, bird droppings), it needs to be cleaned to prevent a loss of performance.",
+        "section_number": "section_52",
+        "category": "maintenance",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 302,
+        "chunked_at": "2025-10-12T03:41:52.267957"
+      },
+      "chunk_id": "manual_section_52_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### **Maintenance**\n\n- The PV system has to be inspected regularly by certified personnel\n- The time intervals and extent of the inspection can depend on local circumstances (e.g. salt, ammonia content in the air, high humidity etc.). The customer / operator must inform himself about time intervals and extend of necessary inspections.\n- Inspections have to be performed especially after extraordinary events (e.g. storm, hail, high snow loads etc.)\n- During the inspections it has to be checked that the components are secure, undamaged and clean",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_53",
+        "section_title": "Maintenance",
+        "section_number": "section_53",
+        "category": "maintenance",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 549,
+        "chunked_at": "2025-10-12T03:41:52.268102"
+      },
+      "chunk_id": "manual_section_53_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### WARNING!\n\nRisk of injury due to hot and live modules!\n\n- Only clean modules that have cooled down.\n- Do not carry or wear any electrically conductive parts.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_55",
+        "section_title": "WARNING!",
+        "section_number": "section_55",
+        "category": "safety",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 161,
+        "chunked_at": "2025-10-12T03:41:52.268186"
+      },
+      "chunk_id": "manual_section_55_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### Risk of falling due to unsecured access!\n\n- Never access the installation area alone or without taking adequate security precautions.\n- Please commission a trade specialist.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_57",
+        "section_title": "Risk of falling due to unsecured access!",
+        "section_number": "section_57",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 178,
+        "chunked_at": "2025-10-12T03:41:52.268274"
+      },
+      "chunk_id": "manual_section_57_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### Module surface damage may occur!\n\n- Remove snow and ice carefully without force (e.g. with a very soft broom).\n- Do not scratch off dirt.\n- Module cleaning has to be done by qualified personnel according to the state of the art and taking into account all relevant safety issues and general product properties, e.g., but not restricted to:\n  - electrical safety\n  - mechanical stability (load limits depending on the actual mounting options)\n  - chemical suitability (no effect to any of the module's components, e.g. cable, connector, silicone)\n  - no abrasive materials.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_59",
+        "section_title": "Module surface damage may occur!",
+        "section_number": "section_59",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 577,
+        "chunked_at": "2025-10-12T03:41:52.268387"
+      },
+      "chunk_id": "manual_section_59_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "#### Dust and dirt are abrasive materials!\n\n- The situation for each individual project (or type of dirt) must always be professionally evaluated.\n- Wrong cleaning may cause damages such as, but not limited to, damages to the glass surface (e.g. scratches) and AR coating, power loss, delamination, loss of frame-to-laminate bond, reduced snow and wind load capability etc.",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_61",
+        "section_title": "Dust and dirt are abrasive materials!",
+        "section_number": "section_61",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 373,
+        "chunked_at": "2025-10-12T03:41:52.268486"
+      },
+      "chunk_id": "manual_section_61_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "**Apart from the above, each customer is free to choose the method of cleaning. However, possible damages, caused by the cleaning or related to the cleaning tools or agents shall not be covered by the module's Product and Performance Warranty. Therefore it is recommended to use only the tools and agents which have already been successfully tested and used with PV modules, to prevent possible damage.**",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_62",
+        "section_title": "Apart from the above, each customer is free to choose the method of cleaning. However, possible damages, caused by the cleaning or related to the cleaning tools or agents shall not be covered by the module's Product and Performance Warranty. Therefore it is recommended to use only the tools and agents which have already been successfully tested and used with PV modules, to prevent possible damage.",
+        "section_number": "section_62",
+        "category": "maintenance",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 404,
+        "chunked_at": "2025-10-12T03:41:52.268630"
+      },
+      "chunk_id": "manual_section_62_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    },
+    {
+      "content": "**Isopropyl alcohol (IPA) can be used selectively to remove stubborn dirt and stains within one hour after emergence.**\n\nNote! Module damage may occur! Do not clean modules with water if there is a risk of frost\n%\n\nFree the substructure from any dirt and debris (leaves bird nests, etc ):",
+      "metadata": {
+        "document_type": "installation_manual",
+        "source_file": "Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1",
+        "product": "Q.TRON_S-G3R.12+_BFG_modules_series",
+        "section_id": "section_63",
+        "section_title": "Isopropyl alcohol (IPA) can be used selectively to remove stubborn dirt and stains within one hour after emergence.",
+        "section_number": "section_63",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 288,
+        "chunked_at": "2025-10-12T03:41:52.268757"
+      },
+      "chunk_id": "manual_section_63_Qcells_Installation_Manual_Q.TRON_S-G3R.12+_BFG_modules_series_2024-08_Rev02_EN-1"
+    }
+  ]
+}

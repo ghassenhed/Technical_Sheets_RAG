@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qcells RAG Query Interface</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .query-section {
+            margin-bottom: 30px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+            font-family: inherit;
+        }
+
+        .advanced-options {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .advanced-options h3 {
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            flex: 1;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .response-section {
+            margin-top: 30px;
+            display: none;
+        }
+
+        .response-section.show {
+            display: block;
+        }
+
+        .answer-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            margin-bottom: 20px;
+        }
+
+        .answer-box h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .answer-content {
+            line-height: 1.8;
+            color: #333;
+            white-space: pre-wrap;
+        }
+
+        .sources-box {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #ffc107;
+            margin-bottom: 20px;
+        }
+
+        .sources-box h3 {
+            color: #856404;
+            margin-bottom: 15px;
+        }
+
+        .source-item {
+            background: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .context-box {
+            background: #e7f3ff;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #0066cc;
+        }
+
+        .context-box h3 {
+            color: #0066cc;
+            margin-bottom: 15px;
+        }
+
+        .chunk-item {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .chunk-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .chunk-content {
+            color: #333;
+            line-height: 1.6;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading-message {
+            text-align: center;
+            color: #667eea;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .error-box {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #dc3545;
+            margin-top: 20px;
+        }
+
+        .metadata {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .metadata-item {
+            background: #e7f3ff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: #0066cc;
+        }
+
+        .toggle-advanced {
+            background: none;
+            border: 2px solid #667eea;
+            color: #667eea;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+
+        .toggle-advanced:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .options-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 Qcells RAG Query Interface</h1>
+            <p>Ask questions about Qcells solar panel documentation</p>
+        </div>
+
+        <div class="content">
+            <div class="query-section">
+                <div class="input-group">
+                    <label for="query">Your Question</label>
+                    <textarea 
+                        id="query" 
+                        placeholder="e.g., What is the maximum module efficiency of the Q.TRON M-G3R.12+ / BFG model?"
+                        rows="3"
+                    ></textarea>
+                </div>
+
+                <button type="button" class="toggle-advanced" onclick="toggleAdvanced()">
+                    ⚙️ Advanced Options
+                </button>
+
+                <div class="advanced-options" id="advancedOptions" style="display: none;">
+                    <h3>Advanced Settings</h3>
+                    <div class="options-grid">
+                        <div class="input-group">
+                            <label for="topKRetrieval">Top K Retrieval</label>
+                            <input type="number" id="topKRetrieval" value="20" min="1" max="50">
+                        </div>
+                        <div class="input-group">
+                            <label for="topKRerank">Top K Rerank</label>
+                            <input type="number" id="topKRerank" value="5" min="1" max="20">
+                        </div>
+                        <div class="input-group">
+                            <label for="temperature">Temperature</label>
+                            <input type="number" id="temperature" value="0.7" min="0" max="2" step="0.1">
+                        </div>
+                        <div class="input-group">
+                            <label for="maxTokens">Max Tokens</label>
+                            <input type="number" id="maxTokens" value="2000" min="100" max="4000">
+                        </div>
+                    </div>
+                    <div class="input-group" style="margin-top: 15px;">
+                        <label for="systemPrompt">Custom System Prompt (optional)</label>
+                        <textarea 
+                            id="systemPrompt" 
+                            placeholder="Leave empty to use default prompt"
+                            rows="3"
+                        ></textarea>
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="btn-primary" onclick="submitQuery()" id="submitBtn">
+                        🚀 Ask Question
+                    </button>
+                    <button type="button" class="btn-secondary" onclick="clearAll()">
+                        🗑️ Clear
+                    </button>
+                </div>
+            </div>
+
+            <div class="response-section" id="responseSection">
+                <div id="loadingIndicator" style="display: none;">
+                    <div class="spinner"></div>
+                    <div class="loading-message">Processing your question...</div>
+                </div>
+
+                <div id="errorBox"></div>
+
+                <div id="answerContainer"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleAdvanced() {
+            const advancedOptions = document.getElementById('advancedOptions');
+            const isVisible = advancedOptions.style.display !== 'none';
+            advancedOptions.style.display = isVisible ? 'none' : 'block';
+        }
+
+        async function submitQuery() {
+            const query = document.getElementById('query').value.trim();
+            
+            if (!query) {
+                alert('Please enter a question');
+                return;
+            }
+
+            const submitBtn = document.getElementById('submitBtn');
+            const responseSection = document.getElementById('responseSection');
+            const loadingIndicator = document.getElementById('loadingIndicator');
+            const answerContainer = document.getElementById('answerContainer');
+            const errorBox = document.getElementById('errorBox');
+
+            // Clear previous results
+            answerContainer.innerHTML = '';
+            errorBox.innerHTML = '';
+
+            // Show loading
+            responseSection.classList.add('show');
+            loadingIndicator.style.display = 'block';
+            submitBtn.disabled = true;
+            submitBtn.textContent = '⏳ Processing...';
+
+            const requestBody = {
+                query: query,
+                top_k_retrieval: parseInt(document.getElementById('topKRetrieval').value),
+                top_k_rerank: parseInt(document.getElementById('topKRerank').value),
+                temperature: parseFloat(document.getElementById('temperature').value),
+                max_tokens: parseInt(document.getElementById('maxTokens').value)
+            };
+
+            const systemPrompt = document.getElementById('systemPrompt').value.trim();
+            if (systemPrompt) {
+                requestBody.system_prompt = systemPrompt;
+            }
+
+            try {
+                const response = await fetch('/ask/query', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(requestBody)
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(errorData.detail || 'Request failed');
+                }
+
+                const data = await response.json();
+                displayResults(data);
+
+            } catch (error) {
+                errorBox.innerHTML = `
+                    <div class="error-box">
+                        <strong>Error:</strong> ${error.message}
+                    </div>
+                `;
+            } finally {
+                loadingIndicator.style.display = 'none';
+                submitBtn.disabled = false;
+                submitBtn.textContent = '🚀 Ask Question';
+            }
+        }
+
+        function displayResults(data) {
+            const answerContainer = document.getElementById('answerContainer');
+            
+            let html = `
+                <div class="answer-box">
+                    <h3>📝 Answer</h3>
+                    <div class="answer-content">${escapeHtml(data.answer)}</div>
+                    <div class="metadata">
+                        <span class="metadata-item">Model: ${data.model}</span>
+                        ${data.usage.total_tokens ? `<span class="metadata-item">Tokens: ${data.usage.total_tokens}</span>` : ''}
+                    </div>
+                </div>
+            `;
+
+            if (data.sources && data.sources.length > 0) {
+                html += `
+                    <div class="sources-box">
+                        <h3>📚 Sources</h3>
+                `;
+                data.sources.forEach((source, index) => {
+                    html += `
+                        <div class="source-item">
+                            <strong>Source ${index + 1}:</strong> ${escapeHtml(source.source_file)} 
+                            (Chunk ${source.chunk_index})
+                        </div>
+                    `;
+                });
+                html += `</div>`;
+            }
+
+            if (data.context_chunks && data.context_chunks.length > 0) {
+                html += `
+                    <div class="context-box">
+                        <h3>🔖 Context Chunks Used</h3>
+                `;
+                data.context_chunks.forEach((chunk, index) => {
+                    html += `
+                        <div class="chunk-item">
+                            <div class="chunk-header">
+                                <span><strong>Chunk ${index + 1}</strong> - ${escapeHtml(chunk.source_file)}</span>
+                                ${chunk.rerank_score ? `<span>Score: ${chunk.rerank_score.toFixed(3)}</span>` : ''}
+                            </div>
+                            <div class="chunk-content">${escapeHtml(chunk.content)}</div>
+                        </div>
+                    `;
+                });
+                html += `</div>`;
+            }
+
+            answerContainer.innerHTML = html;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function clearAll() {
+            document.getElementById('query').value = '';
+            document.getElementById('systemPrompt').value = '';
+            document.getElementById('responseSection').classList.remove('show');
+            document.getElementById('answerContainer').innerHTML = '';
+            document.getElementById('errorBox').innerHTML = '';
+        }
+
+        // Allow Enter key to submit (Ctrl+Enter for textarea)
+        document.getElementById('query').addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'Enter') {
+                submitQuery();
+            }
+        });
+    </script>
+</body>
+</html>

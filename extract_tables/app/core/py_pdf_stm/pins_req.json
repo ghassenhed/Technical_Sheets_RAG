@@ -1,0 +1,53 @@
+{
+  "PACKAGE": "LQFP48",
+  "BLACK_LIST":["BOOT0"],
+  "PINOUT": {
+    "OSC": {
+      "TYPE": "OSC32",
+      "PINS": [
+        "IN",
+        "OUT"
+      ]
+    },
+    "TSA": {
+      "TYPE": "TSI",
+      "PINS": [
+        "IN",
+        "IN",
+        "IN",
+        "IN"
+      ]
+    },
+    "RF-MEM": {
+      "TYPE": "SPI",
+      "PINS": [
+        "MISO",
+        "MOSI",
+        "SCLK"
+      ]
+    },
+    "OPTO": {
+      "TYPE": "UART",
+      "PINS": [
+        "RX",
+        "TX"
+      ]
+    },
+    "RS485-DE": {
+      "TYPE": "GPIO",
+      "PINS": 1
+
+    },
+    "MEM/RF-CS": {
+      "TYPE": "GPIO",
+      "PINS": 2
+    },
+    "MEM": {
+      "TYPE": "I2C",
+      "PINS": [
+        "SCL",
+        "SDA"
+      ]
+    }
+  }
+}

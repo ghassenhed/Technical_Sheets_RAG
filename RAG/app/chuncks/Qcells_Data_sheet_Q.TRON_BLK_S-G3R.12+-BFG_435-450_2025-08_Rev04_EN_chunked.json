@@ -1,0 +1,252 @@
+{
+  "metadata": {
+    "source_file": "Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN.md",
+    "document_type": "datasheet",
+    "total_chunks": 12,
+    "tables_processed": 5,
+    "processed_at": "2025-10-12T04:02:08.596097",
+    "total_characters": 6212
+  },
+  "chunks": [
+    {
+      "content": "#### **High performance Qcells N-type solar cells**\n\nQ.ANTUM NEO solar cell technology with optimized module layout boosts module efficiency up to 22.5 %.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN",
+        "product": "Q.TRON_BLK_S-G3R.12+-BFG_435-450",
+        "section_id": "high_performance_qcells_n_type",
+        "section_title": "High performance Qcells N-type solar cells",
+        "section_number": "high_performance_qcells_n_type",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 154,
+        "chunked_at": "2025-10-12T04:01:12.634952"
+      },
+      "chunk_id": "datasheet_high_performance_qcells_n_type_Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN"
+    },
+    {
+      "content": "#### **A reliable investment**\n\nInclusive 25-year product warranty and improved 30-year linear performance warranty1",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN",
+        "product": "Q.TRON_BLK_S-G3R.12+-BFG_435-450",
+        "section_id": "a_reliable_investment",
+        "section_title": "A reliable investment",
+        "section_number": "a_reliable_investment",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 116,
+        "chunked_at": "2025-10-12T04:01:12.635020"
+      },
+      "chunk_id": "datasheet_a_reliable_investment_Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN"
+    },
+    {
+      "content": "#### **Enduring high performance**\n\nLong-term yield security with Anti LeTID Technology, Anti PID Technology2 , Hot-Spot Protect.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN",
+        "product": "Q.TRON_BLK_S-G3R.12+-BFG_435-450",
+        "section_id": "enduring_high_performance",
+        "section_title": "Enduring high performance",
+        "section_number": "enduring_high_performance",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 129,
+        "chunked_at": "2025-10-12T04:01:12.635072"
+      },
+      "chunk_id": "datasheet_enduring_high_performance_Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN"
+    },
+    {
+      "content": "#### **Extreme weather rating**\n\nHigh-tech aluminium alloy frame, certified for high snow (5400 Pa) and wind loads (2400 Pa).",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN",
+        "product": "Q.TRON_BLK_S-G3R.12+-BFG_435-450",
+        "section_id": "extreme_weather_rating",
+        "section_title": "Extreme weather rating",
+        "section_number": "extreme_weather_rating",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 125,
+        "chunked_at": "2025-10-12T04:01:12.635130"
+      },
+      "chunk_id": "datasheet_extreme_weather_rating_Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN"
+    },
+    {
+      "content": "#### **Innovative all-weather technology**\n\nOptimal yields, whatever the weather with excellent low-light and temperature behaviour.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN",
+        "product": "Q.TRON_BLK_S-G3R.12+-BFG_435-450",
+        "section_id": "innovative_all_weather_technol",
+        "section_title": "Innovative all-weather technology",
+        "section_number": "innovative_all_weather_technol",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 132,
+        "chunked_at": "2025-10-12T04:01:12.635179"
+      },
+      "chunk_id": "datasheet_innovative_all_weather_technol_Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN"
+    },
+    {
+      "content": "#### **Far beyond the standard**\n\nQcells' comprehensive quality program ensures high long-term yields and the reliability of your solar system.\n\n- <sup>1</sup> See data sheet on rear for further information.\n- <sup>2</sup> APT test conditions according to IEC / TS 62804-1:2015, method A (−1500 V, 96 h)",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN",
+        "product": "Q.TRON_BLK_S-G3R.12+-BFG_435-450",
+        "section_id": "far_beyond_the_standard",
+        "section_title": "Far beyond the standard",
+        "section_number": "far_beyond_the_standard",
+        "category": "certifications",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 303,
+        "chunked_at": "2025-10-12T04:01:12.635239"
+      },
+      "chunk_id": "datasheet_far_beyond_the_standard_Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN"
+    },
+    {
+      "content": "**Mechanical Specification for the Q.TRON BLK S‑G3R.12±‑BFG 435‑450**\n\nThe Q.TRON BLK S‑G3R.12±‑BFG 435‑450 solar module has an overall physical footprint of **1762 mm in width, 1134 mm in height, and 30 mm in depth**, the latter measurement including the surrounding frame. The complete assembly weighs **20.9 kg**.\n\n- **Front Cover** – The front surface is made of **1.6 mm‑thick thermally pre‑stressed glass** that incorporates **anti‑reflection technology** to reduce optical losses.  \n- **Back Cover** – The rear side is protected by **1.6 mm‑thick semi‑tempered glass**.  \n- **Frame** – The module’s frame is constructed from **black anodised aluminium**, providing both structural rigidity and corrosion resistance.  \n\n- **Solar Cells** – The photovoltaic array consists of **six rows of sixteen monocrystalline Q.ANTUM NEO half‑cells**, giving a total of 96 half‑cells.  \n\n- **Junction Box** – The integrated junction box measures **53 mm to 67 mm in width, 28 mm in height, and 17 mm in depth**. It is rated to **IP68 protection class** and includes **bypass diodes** for enhanced performance under partial shading.  \n\n- **Cable** – The module is equipped with a **4 mm² solar cable**. The positive (+) conductor length is **≥ 1265 mm**, and the negative (‑) conductor length is also **≥ 1265 mm**.  \n\n- **Connector** – Electrical connection is provided by a **Stäubli MC4‑Evo2A connector**, which also meets **IP68** ingress protection standards.  \n\nAll of the above dimensions, materials, and component specifications together define the mechanical characteristics of the Q.TRON BLK S‑G3R.12±‑BFG 435‑450 solar panel.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN",
+        "product": "Q.TRON_BLK_S-G3R.12+-BFG_435-450",
+        "section_id": "mechanical_specification",
+        "section_title": "Mechanical Specification",
+        "section_number": "mechanical_specification",
+        "category": "technical_specifications",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": true,
+        "char_count": 934,
+        "chunked_at": "2025-10-12T04:01:12.635304"
+      },
+      "chunk_id": "datasheet_mechanical_specification_Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN"
+    },
+    {
+      "content": "**Product:** Q.TRON BLK S‑G3R.12 +‑BFG 435‑450  \n**Section:** Electrical Characteristics  \n\nThe table presents the **minimum performance values** that the modules must meet under **Standard Test Conditions (STC)**, defined as an irradiance of 1000 W m⁻², cell temperature of 25 ± 2 °C, and an AM 1.5 spectrum (IEC 60904‑3). The power‑tolerance band for these values is **+5 W / ‑0 W** (i.e., the module may deliver up to 5 W more than the nominal value, but not less).\n\n| Parameter (symbol) | Unit | 435 V | 440 V | 445 V | 450 V |\n|--------------------|------|------|------|------|------|\n| **Power at Maximum Power Point** (P<sub>MPP</sub>) | W | 435 W | 440 W | 445 W | 450 W |\n| **Short‑Circuit Current** (I<sub>SC</sub>) | A | 15.86 A | 15.89 A | 15.92 A | 15.95 A |\n| **Open‑Circuit Voltage** (V<sub>OC</sub>) | V | 35.15 V | 35.35 V | 35.55 V | 35.75 V |\n| **Current at Maximum Power Point** (I<sub>MPP</sub>) | A | 14.79 A | 14.83 A | 14.87 A | 14.91 A |\n| **Voltage at Maximum Power Point** (V<sub>MPP</sub>) | V | 29.42 V | 29.67 V | 29.93 V | 30.19 V |\n| **Module Efficiency** (η) | % | ≥ 21.8 % | ≥ 22.0 % | ≥ 22.3 % | ≥ 22.5 % |\n\n### Additional Notes\n\n- **Bifaciality:** The bifaciality factor for both P<sub>MPP</sub> and I<sub>SC</sub> is **80 % ± 10 %**. This value is given for rear‑side illumination when the front side is under standard test conditions.\n- **Measurement Tolerances:** According to IEC 60904‑1‑2, the measurement tolerances for P<sub>MPP</sub>, I<sub>SC</sub>, and V<sub>OC</sub> are **± 3 %** under the STC conditions specified above.  \n\nAll the data above are taken directly from the provided table and must be considered the minimum guaranteed performance of the Q.TRON BLK S‑G3R.12 +‑BFG modules for the respective nominal power classes (435 W, 440 W, 445 W, and 450 W).",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN",
+        "product": "Q.TRON_BLK_S-G3R.12+-BFG_435-450",
+        "section_id": "electrical_characteristics",
+        "section_title": "Electrical Characteristics",
+        "section_number": "electrical_characteristics",
+        "category": "technical_specifications",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": true,
+        "char_count": 1755,
+        "chunked_at": "2025-10-12T04:01:15.808809"
+      },
+      "chunk_id": "datasheet_electrical_characteristics_Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN"
+    },
+    {
+      "content": "**Minimum Performance at Normal Operating Conditions (NMOT2) – Product Q.TRON_BLK_S‑G3R.12±‑BFG_435‑450**\n\nThe table presents the minimum electrical parameters that the photovoltaic module must meet under the specified test conditions (irradiance = 2 800 W m⁻², NMOT, AM 1.5 spectrum). The data are organized by the power output at the maximum power point (P\\_MPP) and include the corresponding short‑circuit current (I\\_SC), open‑circuit voltage (V\\_OC), current at the maximum power point (I\\_MPP), and voltage at the maximum power point (V\\_MPP). All values are minimum guaranteed values.\n\n| Power at MPP (P\\_MPP) | Short‑Circuit Current (I\\_SC) | Open‑Circuit Voltage (V\\_OC) | Current at MPP (I\\_MPP) | Voltage at MPP (V\\_MPP) |\n|-----------------------|-------------------------------|------------------------------|--------------------------|--------------------------|\n| **329 W** | 12.80 A | 33.46 V | 11.94 A | 27.56 V |\n| **332 W** | 12.83 A | 33.65 V | 11.97 A | 27.74 V |\n| **336 W** | 12.85 A | 33.84 V | 12.01 A | 27.98 V |\n| **340 W** | 12.88 A | 34.03 V | 12.04 A | 28.24 V |\n\n**Detailed description of each parameter**\n\n1. **Power at Maximum Power Point (P\\_MPP)** – The nominal power output at the module’s maximum power point, expressed in watts (W). The minimum values listed are 329 W, 332 W, 336 W, and 340 W.\n\n2. **Short‑Circuit Current (I\\_SC)** – The current measured when the module’s output terminals are shorted, expressed in amperes (A). The minimum I\\_SC values corresponding to the four P\\_MPP levels are:\n   - 12.80 A at 329 W,\n   - 12.83 A at 332 W,\n   - 12.85 A at 336 W,\n   - 12.88 A at 340 W.\n\n3. **Open‑Circuit Voltage (V\\_OC)** – The voltage measured when the module’s output terminals are open (no load), expressed in volts (V). The minimum V\\_OC values are:\n   - 33.46 V at 329 W,\n   - 33.65 V at 332 W,\n   - 33.84 V at 336 W,\n   - 34.03 V at 340 W.\n\n4. **Current at Maximum Power Point (I\\_MPP)** – The current at which the module delivers its maximum power, expressed in amperes (A). The minimum I\\_MPP values are:\n   - 11.94 A at 329 W,\n   - 11.97 A at 332 W,\n   - 12.01 A at 336 W,\n   - 12.04 A at 340 W.\n\n5. **Voltage at Maximum Power Point (V\\_MPP)** – The voltage at which the module delivers its maximum power, expressed in volts (V). The minimum V\\_MPP values are:\n   - 27.56 V at 329 W,\n   - 27.74 V at 332 W,\n   - 27.98 V at 336 W,\n   - 28.24 V at 340 W.\n\nAll the above figures represent the **minimum guaranteed performance** of the Q.TRON_BLK_S‑G3R.12±‑BFG_435‑450 module under normal operating conditions (NMOT2) as defined by the test standard (irradiance = 2 800 W m⁻², AM 1.5 spectrum). No additional information beyond the table is required to describe these performance specifications.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN",
+        "product": "Q.TRON_BLK_S-G3R.12+-BFG_435-450",
+        "section_id": "minimum_performance_at_normal_",
+        "section_title": "MINIMUM PERFORMANCE AT NORMAL OPERATING CONDITIONS, NMOT2",
+        "section_number": "minimum_performance_at_normal_",
+        "category": "requirements",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": true,
+        "char_count": 594,
+        "chunked_at": "2025-10-12T04:01:25.871706"
+      },
+      "chunk_id": "datasheet_minimum_performance_at_normal__Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN"
+    },
+    {
+      "content": "**Qcells Performance Warranty – Performance at Low Irradiance**\n\nThe Qcells warranty guarantees that the Q.TRON BLK S‑G3R.12 +‑BFG 435‑450 module will retain at least **98.5 % of its nominal power** during the first year of operation. After the first year, the warranty limits the annual power loss to a maximum of **0.33 % degradation per year**. Consequently, the module must still deliver **at least 95.53 % of its nominal power after 10 years** of service, and **at least 88.93 % of its nominal power after 30 years**.\n\nAll stated values are measured within the applicable measurement tolerances. The full warranty is provided in accordance with the warranty terms of the Qcells sales organisation in the customer’s respective country.\n\nThe warranty data refer to **typical module performance under low‑irradiance conditions** and are expressed relative to Standard Test Conditions (STC) of **25 °C and 1000 W m⁻²**.\n\n---\n\n### Standard Terms of Guarantee (as of February 2021)\n\nThe following temperature‑related specifications are part of the standard guarantee for the five photovoltaic (PV) companies that held the highest production capacity in 2021:\n\n| Parameter                                    | Symbol | Unit      | Value |\n|----------------------------------------------|--------|-----------|-------|\n| Temperature Coefficient of Short‑Circuit Current (ISC) | α      | % / K     | **+0.04** |\n| Temperature Coefficient of Open‑Circuit Voltage (VOC) | β      | % / K     | **−0.24** |\n| Temperature Coefficient of Maximum Power Point Power (PMPP) | γ      | % / K     | **−0.28** |\n| Nominal Module Operating Temperature (NMOT)   | –      | °C        | **45 ± 2** |\n\n- **α (+0.04 % / K)** indicates that the short‑circuit current increases by 0.04 % for each kelvin rise in temperature.  \n- **β (−0.24 % / K)** indicates that the open‑circuit voltage decreases by 0.24 % for each kelvin rise in temperature.  \n- **γ (−0.28 % / K)** indicates that the maximum power point power declines by 0.28 % for each kelvin rise in temperature.  \n- **NMOT (45 ± 2 °C)** specifies the nominal operating temperature of the module, with an allowable variation of ±2 °C.\n\nAll of the above figures are exact as presented in the source table and are retained without alteration.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN",
+        "product": "Q.TRON_BLK_S-G3R.12+-BFG_435-450",
+        "section_id": "qcells_performance_warranty_pe",
+        "section_title": "Qcells performance warranty Performance at low irradiance",
+        "section_number": "qcells_performance_warranty_pe",
+        "category": "warranty",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": true,
+        "char_count": 1220,
+        "chunked_at": "2025-10-12T04:01:33.667697"
+      },
+      "chunk_id": "datasheet_qcells_performance_warranty_pe_Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN"
+    },
+    {
+      "content": "**Properties for System Design – Q.TRON_BLK_S‑G3R.12±‑BFG_435‑450**\n\n1. **Maximum System Voltage**  \n   - **Parameter:** Maximum System Voltage (abbreviated **VSYS**)  \n   - **Unit:** volts \\[V\\]  \n   - **Specified Value:** **1500 V**  \n\n   In the same row the table also provides the **PV‑module classification**, which is **Class II**.\n\n2. **Maximum Reverse Current**  \n   - **Parameter:** Maximum Reverse Current (abbreviated **IR**)  \n   - **Unit:** amperes \\[A\\]  \n   - **Specified Value:** **30 A**  \n\n   The accompanying specification for fire safety is the **Fire Rating based on ANSI / UL 61730**, which is rated **C**.\n\n3. **Maximum Design Load (Push / Pull)**  \n   - **Parameter:** Max. Design Load, Push / Pull (no abbreviation given)  \n   - **Unit:** pascals \\[Pa\\]  \n   - **Specified Values:** **3600 Pa** for the push load and **1600 Pa** for the pull load  \n\n   The same row lists the **Permitted Module Temperature**, which spans a range from **‑40 °C to +85 °C**.\n\n4. **Maximum Test Load (Push / Pull)**  \n   - **Parameter:** Max. Test Load, Push / Pull (no abbreviation given)  \n   - **Unit:** pascals \\[Pa\\]  \n   - **Specified Values:** **5400 Pa** for the push load and **2400 Pa** for the pull load  \n\n   The table includes a column titled **“on Continuous Duty,”** but no value is provided for this entry; therefore, the continuous‑duty specification is not defined in the given data.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN",
+        "product": "Q.TRON_BLK_S-G3R.12+-BFG_435-450",
+        "section_id": "properties_for_system_design",
+        "section_title": "Properties for System Design",
+        "section_number": "properties_for_system_design",
+        "category": "technical_specifications",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": true,
+        "char_count": 623,
+        "chunked_at": "2025-10-12T04:01:45.787821"
+      },
+      "chunk_id": "datasheet_properties_for_system_design_Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN"
+    },
+    {
+      "content": "#### **Qualifications and Certificates**\n\nTÜV NORD; IEC 61215:2016; IEC 61730:2016. This data sheet complies with DIN EN 50380.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN",
+        "product": "Q.TRON_BLK_S-G3R.12+-BFG_435-450",
+        "section_id": "qualifications_and_certificate",
+        "section_title": "Qualifications and Certificates",
+        "section_number": "qualifications_and_certificate",
+        "category": "certifications",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 127,
+        "chunked_at": "2025-10-12T04:02:08.596058"
+      },
+      "chunk_id": "datasheet_qualifications_and_certificate_Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN"
+    }
+  ]
+}

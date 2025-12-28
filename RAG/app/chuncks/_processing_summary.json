@@ -1,0 +1,28 @@
+{
+  "processed_at": "2025-10-12T04:02:46.801541",
+  "total_files": 3,
+  "successful": 3,
+  "failed": 0,
+  "llm_available": true,
+  "total_tables_processed": 14,
+  "results": [
+    {
+      "file": "Qcells_Data_sheet_Q.TRON_S-G3R.12+-BFG_440-455_2025-08_Rev05_EN.md",
+      "status": "success",
+      "chunks": 12,
+      "tables_processed": 5
+    },
+    {
+      "file": "Qcells_Data_sheet_Q.TRON_BLK_S-G3R.12+-BFG_435-450_2025-08_Rev04_EN.md",
+      "status": "success",
+      "chunks": 12,
+      "tables_processed": 5
+    },
+    {
+      "file": "Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN.md",
+      "status": "success",
+      "chunks": 11,
+      "tables_processed": 4
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "source_file": "Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN.md",
+    "document_type": "datasheet",
+    "total_chunks": 11,
+    "tables_processed": 4,
+    "processed_at": "2025-10-12T04:02:46.799611",
+    "total_characters": 6156
+  },
+  "chunks": [
+    {
+      "content": "### **High performance Qcells N-type solar cells**\n\nQ.ANTUM NEO solar cell technology with optimized module layout boosts module efficiency up to 23.2 %.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN",
+        "product": "Q.TRON_M-G3R.12+-BFG_495-515",
+        "section_id": "high_performance_qcells_n_type",
+        "section_title": "High performance Qcells N-type solar cells",
+        "section_number": "high_performance_qcells_n_type",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 153,
+        "chunked_at": "2025-10-12T04:02:08.597128"
+      },
+      "chunk_id": "datasheet_high_performance_qcells_n_type_Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN"
+    },
+    {
+      "content": "### **A reliable investment**\n\nInclusive 25-year product warranty and improved 30-year performance warranty1",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN",
+        "product": "Q.TRON_M-G3R.12+-BFG_495-515",
+        "section_id": "a_reliable_investment",
+        "section_title": "A reliable investment",
+        "section_number": "a_reliable_investment",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 108,
+        "chunked_at": "2025-10-12T04:02:08.597156"
+      },
+      "chunk_id": "datasheet_a_reliable_investment_Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN"
+    },
+    {
+      "content": "### **Enduring high performance**\n\nLong-term yield security with Anti LeTID Technology, Anti PID Technology2 , Hot-Spot Protect.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN",
+        "product": "Q.TRON_M-G3R.12+-BFG_495-515",
+        "section_id": "enduring_high_performance",
+        "section_title": "Enduring high performance",
+        "section_number": "enduring_high_performance",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 128,
+        "chunked_at": "2025-10-12T04:02:08.597177"
+      },
+      "chunk_id": "datasheet_enduring_high_performance_Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN"
+    },
+    {
+      "content": "### **Extreme weather rating**\n\nHigh-tech aluminium alloy frame, certified for high snow (5400 Pa) and wind loads (2400 Pa).",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN",
+        "product": "Q.TRON_M-G3R.12+-BFG_495-515",
+        "section_id": "extreme_weather_rating",
+        "section_title": "Extreme weather rating",
+        "section_number": "extreme_weather_rating",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 124,
+        "chunked_at": "2025-10-12T04:02:08.597199"
+      },
+      "chunk_id": "datasheet_extreme_weather_rating_Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN"
+    },
+    {
+      "content": "### **Innovative all-weather technology**\n\nOptimal yields, whatever the weather with excellent low-light and temperature behaviour.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN",
+        "product": "Q.TRON_M-G3R.12+-BFG_495-515",
+        "section_id": "innovative_all_weather_technol",
+        "section_title": "Innovative all-weather technology",
+        "section_number": "innovative_all_weather_technol",
+        "category": "general",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 131,
+        "chunked_at": "2025-10-12T04:02:08.597219"
+      },
+      "chunk_id": "datasheet_innovative_all_weather_technol_Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN"
+    },
+    {
+      "content": "### **Far beyond the standard**\n\nQcells' comprehensive quality program ensures high long-term yields and the reliability of your pv system.\n\n- <sup>1</sup> See data sheet on rear for further information.\n- <sup>2</sup> APT test conditions according to IEC / TS 62804-1:2015, method A (−1500 V, 96 h)",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN",
+        "product": "Q.TRON_M-G3R.12+-BFG_495-515",
+        "section_id": "far_beyond_the_standard",
+        "section_title": "Far beyond the standard",
+        "section_number": "far_beyond_the_standard",
+        "category": "certifications",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 299,
+        "chunked_at": "2025-10-12T04:02:08.597244"
+      },
+      "chunk_id": "datasheet_far_beyond_the_standard_Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN"
+    },
+    {
+      "content": "**Mechanical Specification – Q.TRON M‑G3R.12+‑BFG 495‑515**\n\n- **Overall dimensions (including frame):** The module measures **1 961 mm in length, 1 134 mm in width, and 30 mm in thickness**.  \n\n- **Weight:** The complete unit has a mass of **27.0 kg**.  \n\n- **Front cover:** The front side is protected by **2.0 mm‑thick thermally pre‑stressed glass** that incorporates **anti‑reflection technology** to reduce optical losses.  \n\n- **Back cover:** The rear side is covered with **2.0 mm‑thick semi‑tempered glass**, providing mechanical protection while maintaining a lightweight profile.  \n\n- **Frame:** The peripheral frame is fabricated from **anodised aluminium**, offering corrosion resistance and structural rigidity.  \n\n- **Solar cells:** The module contains **six strings of eighteen (6 × 18) monocrystalline Q.ANTUM NEO half‑cells**, delivering high conversion efficiency.  \n\n- **Junction box:** The integrated junction box has external dimensions of **53 mm to 67 mm (length) × 28 mm (width) × 17 mm (height)**. It is rated to **protection class IP68** and includes **bypass diodes** to maintain performance under partial shading.  \n\n- **Cable:** The power leads consist of **4 mm² solar cable**. The positive (+) conductor length is **≥ 1 400 mm**, and the negative (−) conductor length is **≥ 1 400 mm**.  \n\n- **Connector:** Electrical connection is achieved with a **Stäubli MC4‑EVO2A connector**, which also meets **IP68** ingress protection standards.  \n\nAll of the above specifications are taken directly from the mechanical specification table for the Q.TRON M‑G3R.12+‑BFG 495‑515 product.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN",
+        "product": "Q.TRON_M-G3R.12+-BFG_495-515",
+        "section_id": "mechanical_specification",
+        "section_title": "Mechanical Specification",
+        "section_number": "mechanical_specification",
+        "category": "technical_specifications",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": true,
+        "char_count": 933,
+        "chunked_at": "2025-10-12T04:02:08.597272"
+      },
+      "chunk_id": "datasheet_mechanical_specification_Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN"
+    },
+    {
+      "content": "**Electrical Characteristics of the Q‑TRON M‑G3R.12+‑BFG 495‑515 Module**\n\n---\n\n### 1. Minimum Performance at Standard Test Conditions (STC) – Power Tolerance +5 W / −0 W  \n\nThe values below are measured under the standard test conditions defined in IEC 60904‑3 (irradiance = 1000 W m⁻², cell temperature = 25 ± 2 °C, AM 1.5 spectrum). The indicated tolerances for the parameters PMPP, ISC and VOC are ± 3 % at STC.\n\n| Power Class (Nominal Power, W) | 495 | 500 | 505 | 510 | 515 |\n|--------------------------------|-----|-----|-----|-----|-----|\n| **Power at Maximum Power Point (PMPP)** | 495 W | 500 W | 505 W | 510 W | 515 W |\n| **Short‑Circuit Current (ISC)** | 15.86 A | 15.89 A | 15.92 A | 15.95 A | 15.98 A |\n| **Open‑Circuit Voltage (UOC)** | 39.88 V | 40.06 V | 40.24 V | 40.42 V | 40.60 V |\n| **Minimum Current at MPP (IMPP)** | 14.80 A | 14.84 A | 14.88 A | 14.92 A | 14.96 A |\n| **Voltage at MPP (UMPP)** | 33.45 V | 33.70 V | 33.94 V | 34.19 V | 34.43 V |\n| **Efficiency (η)** | ≥ 22.3 % | ≥ 22.5 % | ≥ 22.7 % | ≥ 22.9 % | ≥ 23.2 % |\n\n**Additional notes for STC data**\n\n* **Bifaciality** – The bifaciality factor for both PMPP and ISC is 80 % ± 5 %. This value is given for rear‑side illumination on top of the standard front‑side STC conditions.  \n* **Measurement tolerances** – According to IEC 60904‑1‑2, the tolerances for PMPP, ISC and VOC are ± 3 % under the STC defined above.  \n\n---\n\n### 2. Minimum Performance at Normal Operating Conditions (NMOT)  \n\nThe following figures are specified for a reduced irradiance of 800 W m⁻², the same AM 1.5 spectrum, and normal operating temperature (NMOT).  \n\n| Power Class (Nominal Power, W) | 495 | 500 | 505 | 510 | 515 |\n|--------------------------------|-----|-----|-----|-----|-----|\n| **Power at MPP (PMPP)** | 374.0 W | 378.0 W | 381.0 W | 385.0 W | 389.0 W |\n| **Short‑Circuit Current (ISC)** | 12.80 A | 12.83 A | 12.85 A | 12.88 A | 12.90 A |\n| **Open‑Circuit Voltage (UOC)** | 37.97 V | 38.14 V | 38.31 V | 38.48 V | 38.65 V |\n| **Current at MPP (IMPP)** | 11.95 A | 11.98 A | 12.01 A | 12.05 A | 12.08 A |\n| **Voltage at MPP (UMPP)** | 31.30 V | 31.56 V | 31.73 V | 31.96 V | 32.21 V |\n\n**Additional notes for NMOT data**\n\n* The NMOT values are based on an irradiance of **800 W m⁻²**, AM 1.5 spectrum.  \n* All NMOT data are within the measurement tolerances defined for the product.  \n\n---\n\n### 3. Power‑Retention Guarantees and Degradation\n\n* **First‑year guarantee:** The module must deliver at least **98.5 %** of its nominal power during the first year of operation.  \n* **Annual degradation limit:** After the first year, the maximum allowed degradation is **0.33 % per year**.  \n* **10‑year guarantee:** After ten years, the module must still provide at least **95.53 %** of its nominal power.  \n* **30‑year guarantee:** After thirty years, the module must retain at least **88.93 %** of its nominal power.  \n\nAll stated performance figures are compliant with the measurement tolerances described above. Full warranty coverage is provided in accordance with the warranty terms of the Q‑Cells sales organization in the purchaser’s respective country.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN",
+        "product": "Q.TRON_M-G3R.12+-BFG_495-515",
+        "section_id": "electrical_characteristics",
+        "section_title": "Electrical Characteristics",
+        "section_number": "electrical_characteristics",
+        "category": "technical_specifications",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": true,
+        "char_count": 2591,
+        "chunked_at": "2025-10-12T04:02:26.005403"
+      },
+      "chunk_id": "datasheet_electrical_characteristics_Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN"
+    },
+    {
+      "content": "The section titled **“Qcells Performance Warranty – Performance at Low Irradiance”** presents the typical module performance under low‑irradiance conditions, referenced against standard test conditions (STC) of 25 °C and 1000 W / m².  \n\nThe table is introduced with a note that the **standard terms of guarantee** shown are those used by the five photovoltaic (PV) companies that had the highest production capacity in 2021 (as of February 2021).\n\nThe performance data are expressed as temperature coefficients for three key electrical parameters, together with the nominal module operating temperature (NMOT). All coefficients are given in percent per kelvin (% / K) and the NMOT is given in degrees Celsius (°C).\n\n| Parameter | Symbol | Unit | Value |\n|-----------|--------|------|-------|\n| Temperature Coefficient of Short‑Circuit Current (I<sub>SC</sub>) | α | % / K | **+0.04** |\n| Temperature Coefficient of Open‑Circuit Voltage (V<sub>OC</sub>) | β | % / K | **−0.24** |\n| Temperature Coefficient of Maximum Power Point (P<sub>MPP</sub>) | γ | % / K | **−0.28** |\n| Nominal Module Operating Temperature (NMOT) | – | °C | **45 ± 2** |\n\nIn narrative form:\n\n- The temperature coefficient of the short‑circuit current (I<sub>SC</sub>) is denoted by the Greek letter **α** and has a value of **+0.04 % per kelvin**. This indicates that for each 1 K increase in temperature, the short‑circuit current rises by 0.04 % of its value at STC.\n- The temperature coefficient of the open‑circuit voltage (V<sub>OC</sub>) is represented by **β** and equals **−0.24 % per kelvin**. Thus, a 1 K temperature rise reduces the open‑circuit voltage by 0.24 % relative to its STC value.\n- The temperature coefficient of the maximum power point (P<sub>MPP</sub>) is indicated by **γ** and is **−0.28 % per kelvin**, meaning the module’s maximum power output decreases by 0.28 % for each kelvin increase in temperature.\n- The **Nominal Module Operating Temperature (NMOT)** is specified as **45 °C with a tolerance of ±2 °C**, defining the typical temperature at which the module is expected to operate under standard conditions.\n\nAll of these figures are part of the warranty terms applied by the leading five PV manufacturers in 2021, providing a quantitative basis for assessing module performance when irradiance levels are lower than the standard test condition of 1000 W / m².",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN",
+        "product": "Q.TRON_M-G3R.12+-BFG_495-515",
+        "section_id": "qcells_performance_warranty_pe",
+        "section_title": "Qcells Performance Warranty Performance at Low Irradiance",
+        "section_number": "qcells_performance_warranty_pe",
+        "category": "warranty",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": true,
+        "char_count": 931,
+        "chunked_at": "2025-10-12T04:02:31.673346"
+      },
+      "chunk_id": "datasheet_qcells_performance_warranty_pe_Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN"
+    },
+    {
+      "content": "**Product:** Q.TRON_M‑G3R.12+-BFG_495‑515 – *Properties for System Design*\n\n- **Maximum System Voltage (VSYS):** The system is rated for a maximum voltage of **1500 V**.  \n  - **PV‑module classification:** The associated photovoltaic modules are classified as **Class II**.\n\n- **Maximum Reverse Current (IR):** The inverter can tolerate a reverse current of up to **30 A**.  \n  - **Fire rating (ANSI/UL 61730):** The device meets fire‑rating **A** as defined by the ANSI/UL 61730 standard.\n\n- **Maximum Design Load (Push / Pull):**  \n  - **Push load:** **3600 Pa**  \n  - **Pull load:** **1600 Pa**  \n  - **Permitted module temperature range:** The modules may operate within a temperature envelope of **‑40 °C to +85 °C**.\n\n- **Maximum Test Load (Push / Pull):**  \n  - **Push load:** **5400 Pa**  \n  - **Pull load:** **2400 Pa**  \n  - **Continuous‑duty condition:** These test‑load values are specified for continuous‑duty operation (no additional numeric value is provided for the continuous‑duty column).\n\nAll specifications above are presented exactly as listed in the source table, preserving units, ranges, and classification designations without omission or alteration.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN",
+        "product": "Q.TRON_M-G3R.12+-BFG_495-515",
+        "section_id": "properties_for_system_design",
+        "section_title": "Properties for System Design",
+        "section_number": "properties_for_system_design",
+        "category": "technical_specifications",
+        "has_table": true,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": true,
+        "char_count": 632,
+        "chunked_at": "2025-10-12T04:02:40.327548"
+      },
+      "chunk_id": "datasheet_properties_for_system_design_Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN"
+    },
+    {
+      "content": "### **Qualifications and Certificates**\n\nTÜV Nord; IEC 61215:2016; IEC 61730:2016. This data sheet complies with DIN EN 50380.",
+      "metadata": {
+        "document_type": "datasheet",
+        "source_file": "Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN",
+        "product": "Q.TRON_M-G3R.12+-BFG_495-515",
+        "section_id": "qualifications_and_certificate",
+        "section_title": "Qualifications and Certificates",
+        "section_number": "qualifications_and_certificate",
+        "category": "certifications",
+        "has_table": false,
+        "has_warning": false,
+        "has_diagram": false,
+        "has_specifications": false,
+        "table_processed_by_llm": false,
+        "char_count": 126,
+        "chunked_at": "2025-10-12T04:02:46.799516"
+      },
+      "chunk_id": "datasheet_qualifications_and_certificate_Qcells_Data_sheet_Q.TRON_M-G3R.12+-BFG_495-515_2025-08_Rev02_EN"
+    }
+  ]
+}

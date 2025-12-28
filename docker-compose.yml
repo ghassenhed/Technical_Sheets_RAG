@@ -1,0 +1,74 @@
+version: '3.8'
+
+services:
+  extract-tables:
+    build: 
+      ./extract_tables
+    container_name: table-extractor
+    ports:
+      - "${EXTRACT_TABLES_FASTAPI_PORT}:8000"
+    volumes:
+      - ./extract_tables/app:/code/app
+      - ./extract_tables/uploads:/code/uploads
+      - ./extract_tables/outputs:/code/outputs
+    environment:
+      - ENV=development
+      - LOG_LEVEL=info
+      - MAX_UPLOAD_SIZE=10485760  # 10MB in bytes
+    env_file:
+      - .env
+    restart: unless-stopped
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+
+  rag:
+    build: 
+      ./RAG
+    container_name: rag
+    ports:
+      - "${RAG_FASTAPI_PORT}:8000"
+    volumes:
+      - ./RAG/app:/code/app
+    environment:
+      - ENV=development
+      - LOG_LEVEL=info
+      - MAX_UPLOAD_SIZE=10485760  # 10MB in bytes
+    env_file:
+      - .env
+    restart: unless-stopped
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    
+
+
+  weaviate:
+    image: semitechnologies/weaviate:1.27.3
+    container_name: weaviate
+    restart: unless-stopped
+    ports:
+      - "${WEAVIATE_PORT}:8080"
+      - "50051:50051"
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
+      PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
+      DEFAULT_VECTORIZER_MODULE: 'none'
+      ENABLE_MODULES: ''
+      CLUSTER_HOSTNAME: 'node1'
+    volumes:
+      - weaviate_data:/var/lib/weaviate
+
+volumes:
+  weaviate_data:
+    driver: local
