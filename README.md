@@ -1,21 +1,8 @@
-# Technical Test
 
 This folder contains a setup for processing PDF files and running the related FastAPI services. Follow the instructions below to run the project.
 
 ---
 
-## Optional: Automatically Extract ZIP Files
-
-You can run the script to extract required ZIP files:
-
-```bash
-chmod +x extract.sh
-./extract.sh
-```
-
-Or extract them manually if preferred.
-
----
 
 ## Run the Services
 
