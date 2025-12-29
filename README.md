@@ -18,8 +18,7 @@ sudo docker-compose up --build
 
 ## Extract Tables
 
-Access the PDF extractor and upload **cd00237391.pdf**
-
+this solution extracts table from stmicroelctronics semiconductors pdf files
 ```
 http://localhost:EXTRACT_TABLES_FASTAPI_PORT/pdf-extractor
 ```
